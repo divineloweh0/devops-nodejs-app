@@ -1,0 +1,26 @@
+{
+  "name": "node-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test":"mocha ./test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/divineloweh0/devops-nodejs-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/divineloweh0/devops-nodejs-app/issues"
+  },
+  "homepage": "https://github.com/divineloweh0/devops-nodejs-app#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.4",
+    "supertest": "^6.2.1"
+  }
+}
